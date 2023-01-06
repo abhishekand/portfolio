@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+    font-family: 'Fenix', serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.main-header {
+    /* background-color: #373948; */
+    display: flex;
+    height: 60px;
+    width: 99.8%;
+    position: relative;
+    border: 1px solid #80808057;
+
+}
+
+
+.logo {
+    display: flex;
+    align-self: center;
+    height: 55%;
+    width: auto;
+    float: left;
+    left: 150px;
+    top: 20px;
+    bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    margin-left: auto !important;
+    align-items: center;
+    list-style: none;
+    height: auto;
+
+}
+
+.nav>li {
+    display: inline-block;
+    padding-right: 5px;
+    left: 105px;
+    top: 20px;
+
+
+
+}
+
+.nav>li>a {
+    border: none;
+    color: blue;
+    display: block;
+    /* font-size: .770rem; */
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 11px 8px;
+    border-radius: 23px;
+}
+
+.nav>li>a:hover {
+    color: white;
+    background-color: #ff00ffab;;
+    opacity: .0.6;
+
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+.profile img {
+    /* border: 2px solid black; */
+    border-radius: 250px;
+    box-shadow: -4px 2px 11px 6px rgb(230 115 230), 3px -2px 15px 7px rgb(86 190 224)
+}
+
+div img {
+    max-width: 35%;
+    height: auto;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+    align-items: center;
+    font-size: 40px;
+}
+
+.name {
+    color: blue;
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 16px 10px;
+    font-family: cursive;
+    margin-left: 12px;
+    
+
+}
+.last{
+    margin-right: 12px;
+}
